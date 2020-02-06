@@ -1,0 +1,13 @@
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 10;
+  top: 153px;
+}
+.dropbtn {
+	cursor: pointer;
+}
+.show {
+  display:block;
+}
