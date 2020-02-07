@@ -1,13 +1,18 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffffff;
   z-index: 10;
-  top: 153px;
+  padding-top: 33px;
+}
+.content {
+	background-color: #ffffff;
 }
 .dropbtn {
 	cursor: pointer;
 }
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 .show {
-  display:block;
+  display: block!important;
 }

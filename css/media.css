@@ -49,6 +49,7 @@
 	.dropdown-content {
 		position: relative !important;
 		top: 0 !important;
+		padding-top: 0;
 	}
 	.advantages {
 		padding: 50px 0;
@@ -58,6 +59,7 @@
 	}
 	.catalog-block {
 		margin: 20px 0 0 0;
+		padding: 0;
 	}
 	.catalog-item-link {
 		margin-bottom: 20px;
@@ -141,11 +143,11 @@
 		padding-bottom: 25px;
 	}
 	.news-text {
-    font-size: 18px;
-    margin-bottom: 10px;
-    height: 100%;
-    padding: 0 15px;
-}
+		font-size: 18px;
+		margin-bottom: 10px;
+		height: 100%;
+		padding: 0 15px;
+	}
 	.category-title-h2, .advantages-title-h2, .popular-product-title-h2, .articles-title-h2, .news-title-h2 {
 		font-size: 30px;
 	}
@@ -154,6 +156,12 @@
 	}
 	.popular-product {
 		padding: 50px 0;
+	}
+	.popular-product-title-h2 {
+		margin-bottom: 0;
+	}
+	.card {
+		margin-top: 50px;
 	}
 	.articles {
 		padding-bottom: 50px;
@@ -175,6 +183,9 @@
 	}
 	.search-img {
 		left: 255px;
+	}
+	.catalog-block {
+		font-size: 10px;
 	}
 	.footer-nav {
 		padding-left: 0;

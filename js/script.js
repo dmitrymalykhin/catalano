@@ -59,4 +59,3 @@ $('#owl-two').owlCarousel({
 		}
 	}
 })
-
