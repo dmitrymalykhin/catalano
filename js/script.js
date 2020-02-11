@@ -47,6 +47,8 @@ $('#owl-two').owlCarousel({
 	dots:true,
 	margin:30,
 	autoHeight:true,
+	autoplay: true,
+  autoplaySpeed: 2000,
 	responsive:{
 		0:{
 			items:1

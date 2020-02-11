@@ -169,6 +169,16 @@ header {
 .content {
 
 }
+.collection {
+	display: flex;
+	padding: 25px;
+}
+.item-name {
+	padding: 0;
+}
+.item-image {
+	padding-left: 150px;
+}
 .catalog-block {
 	display: flex;
 	padding: 50px 0 70px 20px;
@@ -279,9 +289,7 @@ header {
 }
 .item-block-slide .item-slide:nth-child(1) {
 	position: relative;
-}
-.item-block-slide .item-slide:nth-child(2) {
-	margin-top: 25px;
+	margin-bottom: 25px;
 }
 .item-slide {
 	display: block;
