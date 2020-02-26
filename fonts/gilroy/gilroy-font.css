@@ -131,7 +131,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Regular';
     src: url('Gilroy-Regular.eot');
     src: local('Gilroy Regular'), local('Gilroy-Regular'),
         url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
@@ -153,7 +153,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-medium';
     src: url('Gilroy-Medium.eot');
     src: local('Gilroy Medium'), local('Gilroy-Medium'),
         url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
@@ -164,7 +164,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-italic';
     src: url('Gilroy-RegularItalic.eot');
     src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
         url('Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
@@ -186,7 +186,7 @@
 }
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-Bold';
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
