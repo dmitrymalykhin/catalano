@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="fonts/century/century-font.css">
+  <link rel="stylesheet" href="fonts/gilroy/gilroy-font.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/drowdown.css">
+  <link rel="stylesheet" href="css/eror.css">
+  <link rel="stylesheet" href="css/where-to-bay.css">
+  <link rel="stylesheet" href="css/breadcrumb.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <title></title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="top-header">
+        <div class="logo">
+          <a class="logo-link" href="">
+            <img src="image/Catalano_logo.png" alt="" class="logo-img">
+          </a>
+        </div>
+        <div class="cooperation">
+          <a class="cooperation-link" href="">
+            <img src="image/handshake (1).png" alt="" class="cooperation-img">
+            <p>Cотрудничество</p>
+          </a>
+        </div>
+        <div class="search">
+          <input type="search" class="search-input" placeholder="Поиск">
+          <img src="image/search (3).png" alt="" class="search-img">
+        </div>
+        <div class="cart">
+          <a class="cart-link" href="">
+            <img src="image/shopping-cart (4).png" alt="" class="cart-img">
+            <span class="cart-number">1</span>
+            <p>Корзина</p>
+          </a>
+        </div>
+        <div class="location">
+          <div class="location-select">
+            <select id="city1" onChange="CityChange()">
+              <option value="city_1">Москва</option>
+              <option value="city_2">Киев</option>
+              <option value="city_3">Минск</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <div class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-list-item">
+              <div class="dropdown">
+                <a class="dropbtn item-link">Каталог</a>
+                <div class="dropdown-content">
+                  <div class="content">
+                    <div class="catalog-block">
+                      <div class="catalog-item">
+                       <a class="catalog-item-link" href="">
+                        <svg version="1.1" class="catalog-item-img" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 698.5 592" style="enable-background:new 0 0 698.5 592;" xml:space="preserve">
+                        <style type="text/css">
+                          .st0{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+                        </style>
+                        <g>
+                          <g>
+                            <path class="st0" d="M365.7,297v-16.4v-49.2v-94.1c0-20.3,16.5-36.9,36.9-36.9s36.9,16.5,36.9,36.9v4.1h-16.4v16.4h49.2v-16.4
+                            h-16.4v-4.1c0-29.4-23.9-53.3-53.3-53.3s-53.3,23.9-53.3,53.3v94.2v49.2V297H103.5v16.4h24.8c4.3,104.6,90.8,188.5,196.4,188.5
+                            h65.5c105.7,0,192.1-83.8,196.4-188.5h24.9V297H365.7z M390.3,485.5h-65.5c-96.6,0-175.8-76.5-180.1-172.1h425.7
+                            C566,409,486.9,485.5,390.3,485.5z"/>
+                          </g>
+                        </g>
+                      </svg>
+                    Раковины</a>
+                    <a class="catalog-item-link" href="">
+                      <svg class="catalog-item-img" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                      <g id="Page-1">
+                        <g id="_x30_15---Toilet">
+                          <path d="M482.1,238.9H201.3c0,0-97.2,0.3-103.2,0.1l0.3,34c-0.3,5.7-0.2,17.1-0.2,17.1v204.8c0,9.4,7.6,17.1,17.1,17.1h136.5
+                          c9.4,0,17.1-7.6,17.1-17.1v-42.7c0-14.1,11.5-25.6,25.6-25.6h68.3c61.2-0.1,110.9-49.7,110.9-110.9v-25.6h8.5
+                          c14.1,0,25.6-11.5,25.6-25.6C507.8,250.4,496.3,238.9,482.1,238.9z M456.5,315.7c-0.1,51.8-42.1,93.8-93.9,93.9h-68.3
+                          c-23.6,0-42.6,19.1-42.7,42.7V495H115.2V290.1h341.3V315.7z M482.1,273.1H115.2V256h366.9c4.7,0,8.5,3.8,8.5,8.5
+                          S486.8,273.1,482.1,273.1z"/>
+                        </g>
+                      </g>
+                    </svg>
+                  Унитазы</a>
+                </div>
+                <div class="catalog-item">
+                 <a class="catalog-item-link" href="">
+                  <svg class="catalog-item-img" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                  <path d="M482.1,238.9H201.3c0,0-60.8,0.2-89.2,0.2V165c0-2.7,2.2-4.9,4.9-4.9h55.2c3.9,0,7-3.1,7-7s-3.1-7-7-7H117
+                  c-10.4,0-18.9,8.5-18.9,18.9v74h0l0,0v27.1c0,0.6,0.1,1.3,0.3,1.9l0,5c-0.3,5.7-0.2,17.1-0.2,17.1v204.8c0,9.4,7.6,17.1,17.1,17.1
+                  h136.5c9.4,0,17.1-7.6,17.1-17.1v-42.7c0-14.1,11.5-25.6,25.6-25.6h68.3c61.2-0.1,110.9-49.7,110.9-110.9v-25.6h8.5
+                  c14.1,0,25.6-11.5,25.6-25.6C507.8,250.4,496.3,238.9,482.1,238.9z M456.5,315.7c-0.1,51.8-42.1,93.8-93.9,93.9h-68.3
+                  c-23.6,0-42.6,19.1-42.7,42.7V495H115.2V290.1h341.3V315.7z M482.1,273.1H115.2V256h366.9c4.7,0,8.5,3.8,8.5,8.5
+                  S486.8,273.1,482.1,273.1z"/>
+                </svg>
+              Биде</a>
+              <a class="catalog-item-link" href="">
+               <svg class="catalog-item-img" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 511 511" style="enable-background:new 0 0 511 511;" xml:space="preserve">
+               <path d="M111.7,367.2c0,79.3,64.5,143.8,143.8,143.8s143.8-64.5,143.8-143.8c0-0.2-0.1-0.3-0.1-0.5s0.1-0.3,0-0.5l-31.8-263.4v-0.1
+               c-1.7-13.8-11.3-23-23.9-23l0,0l0,0h-63.9V55.9h16c4.4,0,8-3.6,8-8s-3.6-8-8-8h-16V24c0-0.4-0.2-0.8-0.2-1.2
+               C278.6,10.1,268.2,0,255.4,0c-13.2,0-24,10.8-24,24c0,0.2,0.1,0.4,0.1,0.6v22.7c0,0.2-0.1,0.4-0.1,0.6s0.1,0.4,0.1,0.6v31.2h-63.9
+               c-12.6,0-22.2,9.3-23.9,23l-27.4,226.6c0,0.1,0,0.1,0,0.2l-4.3,36C111.9,366.1,111.7,366.6,111.7,367.2z M255.4,495
+               c-70.1,0-127.1-56.7-127.7-126.6c0-0.1,0.1-0.2,0.1-0.3l0.7-5.6c24.5,46.2,73,76.5,127,76.5c54.2,0,102.7-30.4,127.1-76.8l0.6,5.3
+               C383,437.9,325.8,495,255.4,495z M255.4,16c4.4,0,8,3.6,8,8c0,0.2,0.1,0.4,0.1,0.6V40h-16V24c0-0.1-0.1-0.2-0.1-0.3
+               C247.7,19.4,251.1,16,255.4,16z M247.6,55.9h16v23.8h-16V55.9z M159.6,104.7c0.3-2.7,1.8-9,8.1-9h71.9l0,0l0,0h31.9l0,0l0,0h71.8
+               l0,0l0,0c6.2,0,7.7,6.1,8,8.9v0.1l27.1,224.7c-15.2,55.3-65.6,93.7-123.1,93.7c-57.3,0-107.6-38.3-123-93.2L159.6,104.7z"/>
+               <path d="M255.4,167.6c13.2,0,24-10.7,24-24c0-13.2-10.8-24-24-24c-13.2,0-24,10.8-24,24C231.5,156.9,242.2,167.6,255.4,167.6z
+               M255.4,135.7c4.4,0,8,3.6,8,8s-3.6,8-8,8s-8-3.6-8-8C247.4,139.2,251,135.7,255.4,135.7z"/>
+             </svg>
+           Писсуары</a>
+         </div>
+         <div class="catalog-item">
+           <a class="catalog-item-link" href="">
+            <svg class="catalog-item-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+              <path d="M428,449.2h-7.6V58.5v-5.6V20.6h7.6c13.2,0,13.2-20.6,0-20.6H84c-13.2,0-13.2,20.6,0,20.6h7.6v428.6H84
+              c-5.7,0-10.3,4.6-10.3,10.3v42.2c0,5.7,4.6,10.3,10.3,10.3h344c5.7,0,10.3-4.6,10.3-10.3v-42.2C438.3,453.8,433.7,449.2,428,449.2z
+              M286,20.6h113.8v35.3v2.6v390.7H286V20.6z M112.1,20.6h153.3v428.7H112.2V139.7l28.3-28.3c6.3-6.3,16.3-8.2,24.5-4.6
+              c-8,15-5.7,34.2,7,46.8c5.4,5.4,13,13.8,20.6,6.1l41.7-41.7c7.6-7.6-0.7-15.3-6.1-20.6c-13.2-13.2-33.4-15.2-48.6-6
+              c-16.7-11-39.5-8.7-53.7,5.5l-13.8,13.8V20.6z M181,125.5c0-10.5,8.7-19.2,19.2-19.2c4.4,0,8.8,1.5,12.4,4.5l-27.1,27.1
+              C182.6,134.4,181,130.1,181,125.5z M417.7,491.4H94.3v-21.6h323.4V491.4z"/>
+              <path d="M307.7,218.3v33.1c0,13.2,20.6,13.2,20.6,0v-33.1C328.3,205.1,307.7,205.1,307.7,218.3z"/>
+            </g>
+          </svg>
+        Душевые поддоны</a>
+        <a class="catalog-item-link" href="">
+          <svg class="catalog-item-img" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 519.4 430.7" style="enable-background:new 0 0 519.4 430.7;" xml:space="preserve">
+          <path d="M512.5,59.9h-37.6c-0.1-32.8-22.6-59.4-50.2-59.6v0H140.9c-36.7,0-67.5,25.6-75.1,59.7H0.5v21H64v349.3h310.4h5.4h39.4
+          l-0.4-49.2h56V80.9h37.6V59.9z M453.9,59.9h-58.5v-0.7c0-20.9,12.9-37.9,28.8-37.9C440.6,21.2,453.8,38.6,453.9,59.9z M140.9,21.2
+          h245.3c-7.3,10.3-11.7,23.5-11.7,37.9v259.4H85V76.3C85,46,110.1,21.2,140.9,21.2z M85,409.2v-69.7h289.4v69.7H85z M453.9,360h-56.2
+          l0.4,49.2h-2.7V80.9h58.5V360z"/>
+        </svg>
+      Аксессуары</a>
+    </div>
+  </div>
+  <hr>
+  <div class="search-block">
+    <div class="search-size">
+      <p class="search-title">Поиск по размерам</p>
+    </div>
+    <div class="filter-search">
+      <div class="search">
+        <p class="search-title">Поиск по коду</p>
+        <input type="search" class="search-input" placeholder="Поиск">
+        <img src="image/search (3).png" alt="" class="search-img">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</li>
+<li class="navbar-list-item">
+  <div class="dropdown">
+    <a class="dropbtn item-link">Коллекции</a>
+    <div class="dropdown-content">
+      <div class="content collection">
+        <ul class="item-name">
+          <li class="item-name-list">
+            <a class="list-link" href="">New Zero</a></li>
+          </ul>
+          <div class="item-image">
+            <img src="image/4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">О бренде</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Новинки</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Sale</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Контакты</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Где купить</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Покупателям</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Как заказать</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Оплата</a>
+  </li>
+  <li class="navbar-list-item">
+    <a href="" class="item-link">Доставка</a>
+  </li>
+</ul>
+</div>
+</div>
+<div class="m-header">
+  <div class="mobile-menu">
+    <div class="logo">
+      <a class="logo-link" href="">
+        <img src="image/Catalano_logo.png" alt="" class="logo-img">
+      </a>
+    </div>
+    <div id="hamburger" class="hamburger-icon-wrapper">
+      <span class="hamburger-icon"></span>
+    </div>
+    <div class="hamburger-menu">
+      <div class="location">
+        <div class="location-select">
+          <select>
+            <option>Липецк</option>
+          </select>
+        </div>
+      </div>
+      <div class="search">
+        <input type="search" class="search-input" placeholder="Поиск">
+        <img src="image/search (3).png" alt="" class="search-img">
+      </div>
+      <div class="menu-block">
+        <div class="cooperation">
+          <a class="cooperation-link" href="">
+            <img src="image/handshake (1).png" alt="" class="cooperation-img">
+            <p>Cотрудничество</p>
+          </a>
+        </div>
+        <div class="cart">
+          <a class="cart-link" href="">
+            <img src="image/shopping-cart (4).png" alt="" class="cart-img">
+            <span class="cart-number">1</span>
+            <p>Корзина</p>
+          </a>
+        </div>
+      </div>
+      <div id="menu" class="hamburger-menu-list">
+        <ul class="navbar-list">
+          <li class="navbar-list-item">
+            <div class="dropdown">
+              <a class="dropbtn item-link">Каталог
+                <img src="image/plus.svg" alt=""></a>
+                <div class="dropdown-content" style="display: none;">
+                  <div class="content">
+                    <div class="catalog-block">
+                      <div class="catalog-item">
+                       <a class="catalog-item-link" href="">
+                        <img class="catalog-item-img" src="image/sink(4).svg" alt="">
+                      Раковины</a>
+                      <a class="catalog-item-link" href="">
+                        <img class="catalog-item-img fur" src="image/furniture-and-household(2).svg" alt="">
+                      Унитазы</a>
+                      <a class="catalog-item-link" href="">
+                        <img class="catalog-item-img" src="image/furniture-and-household(3).svg" alt="">
+                      Душевые поддоны</a>
+                    </div>
+                    <div class="catalog-item">
+                     <a class="catalog-item-link" href="">
+                      <img class="catalog-item-img" src="image/bide.svg" alt="">
+                    Биде</a>
+                    <a class="catalog-item-link" href="">
+                      <img class="catalog-item-img" src="image/wc.svg" alt="">
+                    Писсуары</a>
+                    <a class="catalog-item-link" href="">
+                      <img class="catalog-item-img" src="image/aks.svg" alt="">
+                    Аксессуары</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="navbar-list-item">
+          <a href="" class="item-link">Коллекции
+            <img src="image/plus.svg" alt=""></a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">О бренде</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Новинки</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Sale</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Контакты</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Где купить</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Покупателям</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Как заказать</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Оплата</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="" class="item-link">Доставка</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+
+<section class="where-bay">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="">Главная</a>
+        </li>
+        <li class="breadcrumb-item active">
+          <a href="">Где купить</a>
+        </li>
+      </ol>
+    </nav>
+    <h1 class="where-bay-title-h1">Где купить</h1>
+    <div class="where-bay-select">
+      <SELECT id="city" onChange="CityChange()">
+        <OPTION value="city_1">Москва</option>
+          <OPTION value="city_2">Киев</option>
+            <OPTION value="city_3">Минск</option>
+            </SELECT>
+          </div>
+          <div id="city_1" style="display: none;">
+            <div class="where-bay-block">
+              <p class="where-bay-text"><b>Флагманский салон Catalano</b> предлагает посетителям самый большой в Москве ассортимент сантехники, а также необходимые сопутствующие материалы, средства по уходу и многое другое. <br><br> 
+              В фирменном магазине можно купить сантехнику за наличный и безналичный расчет.</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="where-bay-list">
+                    <li class="where-bay-list-item">Полный ассортимент сантехники</li>
+                    <li class="where-bay-list-item">Профессиональные менеджеры</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="where-bay-list">
+                    <li class="where-bay-list-item">Полный комплекс сопутствующих товаров</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="location">
+                    <img src="image/pin(2).png" alt="" class="location-img">
+                    <div class="location-text">
+                      г. Москва, ул. Адмирала<br>
+                      Макарова д.6 стр.13
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-md-6">
+                  <div class="call-block">
+                    <div class="tel">
+                      <a class="tel-link" href="tel:+84952740104">
+                        <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+                        8(495)-274-01-04
+                      </a>
+                    </div>
+                    <div class="mail">
+                      <a href="mailto:office@catalano.ru" class="mail-link">
+                        <img src="image/mail-2.png" alt="" class="mail-link-img">
+                        office@catalano.ru
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-md-6">
+                  <div class="work-time">
+                    <img src="image/clock(10).png" alt="" class="work-time-img">
+                    <div class="work-time-day">
+                      пн-пт: <br>
+                      сб: <br>
+                      вс: <br>
+                    </div>
+                    <div class="work-time-clock">
+                      10:00 - 19:00 <br>
+                      11:00 - 19:00 <br>
+                      выходной
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="where-to-bay-slider">
+            <h2 class="where-to-bay-title-h2">Список дилеров по Москве</h2>
+            <div id="owl-where" class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="item-block-1">
+                 <div class="location">
+                  <img src="image/pin(2).png" alt="" class="location-img">
+                  <div class="location-text">
+                    г. Москва, ул. Адмирала<br>
+                    Макарова д.6 стр.13
+                  </div>
+                </div>
+                <div class="tel">
+                  <a class="tel-link" href="tel:+84952740104">
+                    <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+                    <div class="tel-link-text">8(495)-274-01-04</div> 
+                  </a>
+                </div> 
+              </div>
+              <div class="item-block-2">
+               <div class="location">
+                <img src="image/pin(2).png" alt="" class="location-img">
+                <div class="location-text">
+                  г. Москва, ул. Адмирала<br>
+                  Макарова д.6 стр.13
+                </div>
+              </div>
+              <div class="tel">
+                <a class="tel-link" href="tel:+84952740104">
+                  <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+                  <div class="tel-link-text">8(495)-274-01-04</div> 
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-block-1">
+             <div class="location">
+              <img src="image/pin(2).png" alt="" class="location-img">
+              <div class="location-text">
+                г. Москва, ул. Адмирала<br>
+                Макарова д.6 стр.13
+              </div>
+            </div>
+            <div class="tel">
+              <a class="tel-link" href="tel:+84952740104">
+                <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+                <div class="tel-link-text">8(495)-274-01-04</div> 
+              </a>
+            </div> 
+          </div>
+          <div class="item-block-2">
+           <div class="location">
+            <img src="image/pin(2).png" alt="" class="location-img">
+            <div class="location-text">
+              г. Москва, ул. Адмирала<br>
+              Макарова д.6 стр.13
+            </div>
+          </div>
+          <div class="tel">
+            <a class="tel-link" href="tel:+84952740104">
+              <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+              <div class="tel-link-text">8(495)-274-01-04</div> 
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="item-block-1">
+         <div class="location">
+          <img src="image/pin(2).png" alt="" class="location-img">
+          <div class="location-text">
+            г. Москва, ул. Адмирала<br>
+            Макарова д.6 стр.13
+          </div>
+        </div>
+        <div class="tel">
+          <a class="tel-link" href="tel:+84952740104">
+            <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+            <div class="tel-link-text">8(495)-274-01-04</div> 
+          </a>
+        </div> 
+      </div>
+      <div class="item-block-2">
+       <div class="location">
+        <img src="image/pin(2).png" alt="" class="location-img">
+        <div class="location-text">
+          г. Москва, ул. Адмирала<br>
+          Макарова д.6 стр.13
+        </div>
+      </div>
+      <div class="tel">
+        <a class="tel-link" href="tel:+84952740104">
+          <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+          <div class="tel-link-text">8(495)-274-01-04</div> 
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="item-block-1">
+     <div class="location">
+      <img src="image/pin(2).png" alt="" class="location-img">
+      <div class="location-text">
+        г. Москва, ул. Адмирала<br>
+        Макарова д.6 стр.13
+      </div>
+    </div>
+    <div class="tel">
+      <a class="tel-link" href="tel:+84952740104">
+        <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+        <div class="tel-link-text">8(495)-274-01-04</div> 
+      </a>
+    </div> 
+  </div>
+  <div class="item-block-2">
+   <div class="location">
+    <img src="image/pin(2).png" alt="" class="location-img">
+    <div class="location-text">
+      г. Москва, ул. Адмирала<br>
+      Макарова д.6 стр.13
+    </div>
+  </div>
+  <div class="tel">
+    <a class="tel-link" href="tel:+84952740104">
+      <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+      <div class="tel-link-text">8(495)-274-01-04</div> 
+    </a>
+  </div>
+</div>
+</div>
+<div class="item">
+  <div class="item-block-1">
+   <div class="location">
+    <img src="image/pin(2).png" alt="" class="location-img">
+    <div class="location-text">
+      г. Москва, ул. Адмирала<br>
+      Макарова д.6 стр.13
+    </div>
+  </div>
+  <div class="tel">
+    <a class="tel-link" href="tel:+84952740104">
+      <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+      <div class="tel-link-text">8(495)-274-01-04</div> 
+    </a>
+  </div> 
+</div>
+<div class="item-block-2">
+ <div class="location">
+  <img src="image/pin(2).png" alt="" class="location-img">
+  <div class="location-text">
+    г. Москва, ул. Адмирала<br>
+    Макарова д.6 стр.13
+  </div>
+</div>
+<div class="tel">
+  <a class="tel-link" href="tel:+84952740104">
+    <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+    <div class="tel-link-text">8(495)-274-01-04</div> 
+  </a>
+</div>
+</div>
+</div>
+<div class="item">
+  <div class="item-block-1">
+   <div class="location">
+    <img src="image/pin(2).png" alt="" class="location-img">
+    <div class="location-text">
+      г. Москва, ул. Адмирала<br>
+      Макарова д.6 стр.13
+    </div>
+  </div>
+  <div class="tel">
+    <a class="tel-link" href="tel:+84952740104">
+      <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+      <div class="tel-link-text">8(495)-274-01-04</div> 
+    </a>
+  </div> 
+</div>
+<div class="item-block-2">
+ <div class="location">
+  <img src="image/pin(2).png" alt="" class="location-img">
+  <div class="location-text">
+    г. Москва, ул. Адмирала<br>
+    Макарова д.6 стр.13
+  </div>
+</div>
+<div class="tel">
+  <a class="tel-link" href="tel:+84952740104">
+    <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+    <div class="tel-link-text">8(495)-274-01-04</div> 
+  </a>
+</div>
+</div>
+</div>
+<div class="item">
+  <div class="item-block-1">
+   <div class="location">
+    <img src="image/pin(2).png" alt="" class="location-img">
+    <div class="location-text">
+      г. Москва, ул. Адмирала<br>
+      Макарова д.6 стр.13
+    </div>
+  </div>
+  <div class="tel">
+    <a class="tel-link" href="tel:+84952740104">
+      <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+      <div class="tel-link-text">8(495)-274-01-04</div> 
+    </a>
+  </div> 
+</div>
+<div class="item-block-2">
+ <div class="location">
+  <img src="image/pin(2).png" alt="" class="location-img">
+  <div class="location-text">
+    г. Москва, ул. Адмирала<br>
+    Макарова д.6 стр.13
+  </div>
+</div>
+<div class="tel">
+  <a class="tel-link" href="tel:+84952740104">
+    <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+    <div class="tel-link-text">8(495)-274-01-04</div> 
+  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+          </div>
+
+          <div id="city_2" style="display: block;">
+            <div class="city">
+<div class="row">
+  <div class="col-md-6">
+    <div class="location">
+  <img src="image/pin(2).png" alt="" class="location-img">
+  <div class="location-text">
+г. Ульяновск, ул. Рылеева, дом 23
+  </div>
+</div>
+  </div>
+  <div class="col-md-6">
+      <div class="tel">
+      <img src="image/phone-call(10).png" alt="" class="tel-link-img">
+      <ul class="tel-link-list">
+        <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+                <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+                <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+      </ul>
+            <ul class="tel-link-list">
+        <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+                <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+                <li class="tel-link-list-item">
+          <a href="" class="tel-link-list-item-link">8(8422)79-19-49</a>
+        </li>
+      </ul>
+  </div> 
+  </div>
+</div>
+</div>
+          </div>
+
+          <div id="city_3" style="display: none">
+          Залупа</div>
+
+</div>
+
+</section>
+<section class="maps">
+    <img class="maps-img" src="image/maps.png" alt="">
+</section>
+<footer>
+  <div class="container">
+    <div class="row md-center">
+      <div class="col-lg-3 d-conf">
+        <img src="image/Catalano_logo.png" alt="" class="footer-logo">
+        <a href="" class="footer-text">Политика конфидециальности</a>
+      </div>
+      <div class="col col-lg-3">
+        <ul class="footer-nav">
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Покупателям</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Как заказать</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Оплата</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Доставка</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Контакты</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Где купить</a></li>
+        </ul>
+      </div>
+      <div class="col col-lg-3">
+        <ul class="footer-nav">
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Каталог</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Коллекции</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">О бренде</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Новинки</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-item-link">Sale</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-tel">
+          <a class="tel-link" href="tel:+84952740104">
+            <img src="image/phone-call (10).png" alt="" class="link-img">
+            8(495)-274-01-04
+          </a>
+        </div>
+        <div class="footer-mail">
+          <a href="mailto:office@catalano.ru" class="mail-link">
+            <img src="image/mail.png" alt="" class="link-img">
+            office@catalano.ru
+          </a>
+        </div>
+        <div class="social">
+          <a href="" class="social-link">
+            <svg version="1.1" class="facebook" id="fk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 322 541" style="enable-background:new 0 0 322 541;" xml:space="preserve">
+            <path d="M222,140.1c0,0,2.6-2.3,14.2-2.3h42.1c15.6,0,28.3-12.7,28.3-28.3V35.9c0-15.6-12.7-28.3-28.3-28.3l-62.5-0.1
+            c-39.6,0-73.3,13.1-97.4,38c-24,24.7-36.7,59-36.7,99.2v36.2H37.4c-15.6,0-28.3,12.7-28.3,28.3v79.2c0,15.6,12.7,28.3,28.3,28.3
+            h44.3v181.5c0,15.6,12.7,28.3,28.3,28.3h82c15.5,0,28.3-12.8,28.5-28.5V316.6h55c15.6,0,28.3-12.7,28.3-28.3v-79.2
+            c0-10.3-5.6-19.7-14.6-24.8c-4.3-2.3-9.1-3.5-14-3.5h-54.8v-27.9C220.4,142.1,221.9,140.1,222,140.1z M194.1,115.6
+            c-9.6,10.9-10.9,25-10.9,37.4v44.7c0,11.1,9,20.1,20.1,20.1h63.3v61.9h-63.2c-11.1,0-20.1,9-20.1,20.1v189.7h-64.6V299.8
+            c0-11.1-9-20.1-20.1-20.1H46v-61.9h52.6c11.1,0,20.1-9,20.1-20.1v-53.1c0-61.7,37.2-100.1,97.1-100.1l53.6,0.1v56.3H236
+            C223.6,100.9,205.7,102.4,194.1,115.6z"/>
+          </svg>
+        </a>
+        <a href="" class="social-link">
+          <svg version="1.1" class="insta" id="inst" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <path d="M256.1,124.5c-72.6,0-131.4,58.8-131.4,131.4c0,72.6,58.8,131.4,131.4,131.4c72.6,0,131.4-58.8,131.4-131.4
+          C387.5,183.3,328.6,124.5,256.1,124.5L256.1,124.5z M256.1,341.2c-47.1,0-85.3-38.2-85.3-85.3s38.2-85.3,85.3-85.3
+          s85.3,38.2,85.3,85.3C341.4,303,303.2,341.2,256.1,341.2z"/>
+          <path d="M361.6,1.6c-47.1-2.2-163.8-2.1-210.9,0C109.2,3.6,72.7,13.6,43.2,43C-6,92.3,0.3,158.6,0.3,255.9
+          c0,99.6-5.5,164.4,42.9,212.9c49.4,49.4,116.7,42.9,212.9,42.9c98.6,0,132.7,0.1,167.6-13.4c47.4-18.4,83.2-60.8,86.7-136.9
+          c2.2-47.1,2.1-163.8,0-210.9C506.2,60.6,457.9,6.1,361.6,1.6L361.6,1.6z M436.1,436.2c-32.3,32.3-77.1,29.4-180.7,29.4
+          c-106.7,0-149.4,1.6-180.7-29.7c-35.9-35.8-29.4-93.2-29.4-180.3c0-117.9-12.1-202.8,106.2-208.8c27.2-1,35.2-1.3,103.6-1.3l1,0.6
+          c113.7,0,202.9-11.9,208.2,106.4c1.2,27,1.5,35.1,1.5,103.4C465.8,361.3,467.8,404.4,436.1,436.2L436.1,436.2z"/>
+          <circle cx="392.7" cy="119.4" r="30.7"/>
+        </svg>
+      </a>
+    </div>
+    <div class="col-lg-3 conf">
+      <img src="image/Catalano_logo.png" alt="" class="footer-logo">
+      <a href="" class="footer-text">Политика конфидециальности</a>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/96928ca8ce.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
