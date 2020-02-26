@@ -1,0 +1,30 @@
+.detal-collection .owl-theme .owl-nav {
+	top: 45%;
+}
+.detal-collection .owl-prev {
+	left: 20px;
+	position: relative;
+}
+.detal-collection .owl-next {
+	right: 20px;
+	position: relative;
+}
+.detal-collection-text {
+	font-size: 16px;
+	line-height: 1.7;
+	margin-top: 40px;
+}
+.detal-collection-title-h2 {
+	font-size: 60px;
+	margin-bottom: 25px;
+	font-family: 'Gilroy-UltraLight';
+	font-weight: 500;
+	margin-top: 100px;
+	text-align: center;
+}
+.detal-collection-block {
+	margin-bottom: 50px;
+}
+.detal-collection .card {
+	margin-bottom: 50px;
+}

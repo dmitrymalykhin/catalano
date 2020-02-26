@@ -1,0 +1,18 @@
+.dostavka {
+	margin-bottom: 280px;
+}
+.dostavka-title-h1 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 110px;
+	font-family: 'Gilroy-UltraLight';
+	font-weight: 200;
+}
+.dostavka-img {
+	height: 100px;
+}
+.dostavka-text {
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 20px;
+}

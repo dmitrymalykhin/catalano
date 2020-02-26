@@ -1,0 +1,32 @@
+.acticles-card-link {
+	display: block;
+}
+.articles-page {
+	margin-bottom: 100px;
+}
+.articles-page .articles-title-h2 {
+	text-align: left;
+}
+.articles-page .articles-img {
+	height: 385px;
+	object-fit: cover;
+	width: 100%;
+}
+.articles-page .articles-text {
+	height: 70px;
+}
+.articles-card {
+	margin-bottom: 50px;
+}
+.articles-page-detail {
+	margin-bottom: 100px;
+}
+.articles-page-detail-block-title {
+	font-size: 30px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.articles-page-detail-block-content {
+	font-size: 18px;
+	line-height: 1.7;
+}

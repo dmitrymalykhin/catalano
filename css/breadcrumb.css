@@ -1,0 +1,37 @@
+nav {
+	display: block;
+	padding-top: 50px;
+	font-size: 15px;
+}
+.breadcrumb {
+	margin: 0;
+	background: none;
+}
+.breadcrumb {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: .75rem 1rem;
+	margin-bottom: 1rem;
+	list-style: none;
+	border-radius: .25rem;
+}
+.breadcrumb {
+	list-style: none;
+}
+.breadcrumb > .breadcrumb-item > a {
+	color:#666666;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	display: inline-block;
+	padding-right: .5rem;
+	color: #666666;
+	content: "→";
+}
+.breadcrumb-item.active a{
+  color: #000;
+}
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: .5rem;
+}

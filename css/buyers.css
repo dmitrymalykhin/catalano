@@ -1,0 +1,123 @@
+.buyers-title-h1 {
+    font-size: 60px;
+    font-family: 'Gilroy-UltraLight';
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.buyers-block {
+    color: #cdcdcd;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buyers-block:nth-child(2) {
+    font-size: 14px;
+}
+.switcher {
+    padding-left: 25px !important;
+}
+[data-switcher-show].selected {
+    color: #6c8a84;
+    border: 1px solid #5f817a;
+}
+[data-switcher-name]:not(.selected) {
+    display: none;
+}
+[data-switcher-show] {
+    border: 1px solid #d8d8d8;
+    display: block;
+    padding: 8px 0;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.el-catalog-item {
+    margin-bottom: 25px;
+}
+.el-catalog-item-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.el-catalog-item-name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.el-catalog-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+.el-catalog-item-link-text {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #e1e1e1;
+    color: #bab8b8;
+}
+.el-catalog-item-link img {
+    padding-left: 5px;
+}
+.el-catalog-item-save {
+    color: #fff;
+    font-weight: bold;
+    background: #5f817a;
+    padding: 8px 0;
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.instruction {
+    margin-bottom: 100px;
+}
+.instruction-item {
+    margin-bottom: 50px;
+}
+.instruction-img {
+    width: 100%;
+}
+.instruction-title {
+    font-size: 25px;
+    margin: 25px 0 5px 0;
+}
+.instruction-text {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.instruction-link {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #e1e1e1;
+    font-size: 15px;
+    font-weight: bold;
+    color: #c3c2c2;
+}
+.recommendations-item {
+    margin-bottom: 25px;
+}
+.recommendations-item-img {
+    width: 100%;
+    object-fit: cover;
+}
+.recommendations-item-save {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 0;
+    color: #fff;
+    background: #5f817a;
+    display: block;
+    text-align: center;
+}
+.sertificate-item {
+    margin-bottom: 25px;
+}
+.sertificate-item img {
+    width: 100%;
+    object-fit: scale-down;
+}
+.sertificate-item-save {
+    color: #c3c2c2;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid #c3c2c2;
+    padding-bottom: 2px;
+}

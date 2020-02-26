@@ -1,0 +1,30 @@
+.pagination {
+	display: flex;
+	list-style-type: none;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 13px;
+	padding: 0;
+}
+.pagination .active a{
+	color: #5f817a;
+	font-weight: bold;
+}
+.page-item a {
+	color: #9d9d9d;
+}
+.page-item a:hover {
+	color: #5f817a;
+	font-weight: bold;
+}
+.pagination li {
+    padding: 0 10px;
+}
+.page-link img {
+	height: 13px;
+	width: 16px;
+}
+.page-link img:hover {
+	filter: invert(49%) sepia(18%) saturate(492%) hue-rotate(118deg) brightness(92%) contrast(82%);
+}

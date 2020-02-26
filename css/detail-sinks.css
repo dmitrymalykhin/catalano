@@ -1,0 +1,43 @@
+.detail-sinks {
+	margin-bottom: 100px;
+}
+.detail-sinks-title-h1 {
+	font-size: 60px;
+	font-family: 'Gilroy-UltraLight';
+	font-weight: 200;
+	text-align: center;
+}
+.detail-sinks-text {
+	font-size: 16px;
+	line-height: 1.7;
+	margin-top: 25px;
+	margin-bottom: 75px;
+}
+.detail-sinks-text b {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #5f817a;
+}
+.sink {
+	margin-bottom: 25px;
+}
+.sink-text {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.sinks-warning {
+	font-size: 13px;
+	color: #cacaca;
+}
+.detail-sinks .owl-theme .owl-nav {
+	top: 45%;
+}
+.detail-sinks .owl-prev {
+	left: 20px;
+	position: relative;
+}
+.detail-sinks .owl-next {
+	right: 20px;
+	position: relative;
+}

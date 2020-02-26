@@ -1,0 +1,52 @@
+.cooperation-title-h1 {
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: 'Gilroy-UltraLight';
+	font-weight: 200;
+}
+.cooperation-title-h2 {
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: 500;
+}
+.cooperation .form {
+	margin-top: 0;
+}
+.contacts-select {
+	position: relative;
+}
+.contacts-select::after {
+	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAUklEQVQYlY3P0QmAMBAE0YcFaAd2kkps1AqsyAJkBUWDCc5XcjvLcVAw5tEheRkwY8XUcDNPHu9kwfZRyD/z5C/qQlOsN2RlV3wW9j/ixX3MDQ4uKAtLOSSTWAAAAABJRU5ErkJggg==");
+	display: block;
+	border-style: none;
+	position: absolute;
+	top: 50%;
+	left: 285px;
+	z-index: 1;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.contacts-select select {
+	width: 310px;
+	padding: 10px 6px;
+	font-size: 15px;
+	color: #000;
+	display: block;
+	margin-bottom: 25px;
+	border: 1px solid #d8d8d8;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	cursor: pointer;
+	font-family: 'Century-Gothic';
+	font-weight: 100;
+}
+.maps2 {
+margin-bottom: 100px;
+text-align: center;
+}
+.maps2 img {
+	object-fit: scale-down;
+}

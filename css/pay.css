@@ -1,0 +1,18 @@
+.pay {
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+.pay-block {
+	margin: 100px 0;
+}
+.pay-image-block {
+	margin-right: 50px;
+}
+.pay-text-title {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.pay-warning {
+	font-size: 13px;
+	color: #adadad;
+}

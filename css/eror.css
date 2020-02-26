@@ -1,0 +1,19 @@
+.error-404 {
+	margin: 100px 0;
+}
+.error-404-title-h1 {
+	font-family: 'Gilroy-Bold';
+	font-weight: bold;
+	font-size: 178px;
+}
+.error-404 .articles-link {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.error-404 a:hover {
+  color: #ffffff;
+}
+.error-404-img {
+	width: 100%;
+}
