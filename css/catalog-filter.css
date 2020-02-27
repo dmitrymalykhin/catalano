@@ -10,7 +10,7 @@
 }
 .category-filter-block, .size-filter, .price-range-filter {
 	background: #f9f9f9;
-	padding: 30px 20px 30px 30px;
+	padding: 30px 10px 30px 20px;
 	border-bottom: 1px solid #ededed;
 	margin: 0;
 	width: 260px;
@@ -254,7 +254,7 @@ input[type="radio"]:checked + label:after {
 	padding-bottom: 0;
 }
 .navigation {
- margin-bottom: 150px;
+	margin-bottom: 150px;
 }
 .navigation-border {
 	border: 1px solid #d8d8d8;
@@ -287,4 +287,32 @@ input[type="radio"]:checked + label:after {
 }
 .m-filter-block {
 	display: none;
+}
+.d-category-filter .dropdown-content, .m-filter-block .dropdown-content {
+	position: relative;
+	padding-top: 0;
+}
+.d-category-filter .dropdown:hover .dropdown-content, .m-filter-block .dropdown:hover .dropdown-content  {
+	display: none;
+}
+.category-filter-list {
+	background: #f9f9f9;
+	padding: 10px 0 10px 15px;
+	font-size: 14px;
+}
+.category-filter-list li {
+	margin-bottom: 5px;
+	position: relative;
+}
+.category-filter-list li::after {
+	content: "";
+	width: 6px;
+	height: 6px;
+	margin: 5px 7px;
+	background: #d4d4d4;
+	display: block;
+	border-radius: 30px;
+	position: absolute;
+	top: 2px;
+	left: -22px;
 }

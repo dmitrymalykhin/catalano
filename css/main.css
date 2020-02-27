@@ -140,6 +140,35 @@ color: #5f817a;
 	right: 10px;
 	cursor: pointer;
 }
+.search .dropdown-content {
+	top: 0;
+	padding-top: 28px;
+}
+.search .content {
+	width: 315px;
+	background: #fff;
+	border: 1px solid #cacaca;
+	border-top: none;
+	padding: 10px 0 10px 20px;
+}
+.search-item-link {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.search-item-link img {
+	height: 30px;
+	width: 30px;
+	object-fit: scale-down;
+	margin-right: 10px;
+}
+.search-item-link-size {
+	width: 50px;
+}
+.search-item-link-arcticle {
+	color:#dcdbdb;
+}
 .cart {
 	position: relative;
 	margin-right: 50px;
