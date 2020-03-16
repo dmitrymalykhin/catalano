@@ -488,6 +488,9 @@
 	.switcher {
 		padding-left: 0 !important;
 	}
+	.collection-title-h1 {
+		font-size: 24px;
+	}
 }
 @media screen and (max-width: 350px){
 	.logo-img {

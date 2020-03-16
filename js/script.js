@@ -218,3 +218,6 @@ $(document).ready(function(){
 		$("#calc_l_meters").val(this.value);
 	});
 });
+
+$('.search-input').focus(function(){$('#dropdown-content').show();})
+          .blur(function(){$('#dropdown-content').hide();});
