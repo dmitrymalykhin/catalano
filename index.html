@@ -5,13 +5,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.css">
-  <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="fonts/century/century-font.css">
   <link rel="stylesheet" href="fonts/gilroy/gilroy-font.css">
+  <link rel="stylesheet" href="css/catalog-filter.css">
+  <link rel="stylesheet" href="css/articles.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/brand.css">
+  <link rel="stylesheet" href="css/breadcrumb.css">
+  <link rel="stylesheet" href="css/buyers.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/cooperation.css">
+  <link rel="stylesheet" href="css/detail-sinks.css">
+  <link rel="stylesheet" href="css/detal-collection.css">
+  <link rel="stylesheet" href="css/dostavka.css">
+  <link rel="stylesheet" href="css/drowdown.css">
+  <link rel="stylesheet" href="css/eror.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/pagination.css">
+  <link rel="stylesheet" href="css/pay.css">
+  <link rel="stylesheet" href="css/product-card.css">
+  <link rel="stylesheet" href="css/sale.css">
+  <link rel="stylesheet" href="css/where-to-bay.css">
+  <link rel="stylesheet" href="css/zakaz.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/drowdown.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/media.css">
 
 
@@ -57,8 +77,8 @@
           <ul class="navbar-list">
             <li class="navbar-list-item">
               <div class="dropdown">
-                <a class="dropbtn item-link">Каталог</a>
-                <div class="dropdown-content">
+                <a class="dropbtn item-link" onclick="showDropdownContent('catalog')">Каталог</a>
+                <div class="dropdown-content" id="catalog">
                   <div class="content">
                     <div class="catalog-block">
                       <div class="catalog-item">
@@ -166,8 +186,8 @@
 </li>
 <li class="navbar-list-item">
   <div class="dropdown">
-    <a class="dropbtn item-link">Коллекции</a>
-    <div class="dropdown-content">
+    <a class="dropbtn item-link" onclick="showDropdownContent('collection')">Коллекции</a>
+    <div class="dropdown-content" id="collection">
       <div class="content collection">
 <ul class="item-name">
   <li class="item-name-list">
@@ -251,9 +271,9 @@
         <ul class="navbar-list">
           <li class="navbar-list-item">
             <div class="dropdown">
-              <a class="dropbtn item-link">Каталог
+              <a class="dropbtn item-link" onclick="showDropdownContent('m-catalog')">Каталог
                 <img src="image/plus.svg" alt=""></a>
-                <div class="dropdown-content" style="display: none;">
+                <div class="dropdown-content" id="m-catalog">
                   <div class="content">
                     <div class="catalog-block">
                       <div class="catalog-item">
@@ -284,8 +304,19 @@
           </div>
         </li>
         <li class="navbar-list-item">
-          <a href="" class="item-link">Коллекции
+          <a class="dropbtn item-link" onclick="showDropdownContent('m-collection')">Коллекции
             <img src="image/plus.svg" alt=""></a>
+                <div class="dropdown-content" id="m-collection">
+      <div class="content collection">
+<ul class="item-name">
+  <li class="item-name-list">
+    <a class="list-link" href="">New Zero</a></li>
+</ul>
+<div class="item-image">
+  <img src="image/4.jpg" alt="">
+</div>
+      </div>
+    </div>
           </li>
           <li class="navbar-list-item">
             <a href="" class="item-link">О бренде</a>
